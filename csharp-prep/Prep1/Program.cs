@@ -4,6 +4,21 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.Write("Enter a number: ");
+        string firstA = Console.ReadLine();
+        Console.Write("Enter another number: ");
+        string secondA = Console.ReadLine();
+        Add adder = new Add();
+        
+        adder.firstNum = int.Parse(firstA);
+        
+        adder.secondNum = int.Parse(secondA);
+        
+        adder.Addition();
+        Console.WriteLine($"Number = {adder.sum}");
+
+
+        
         Console.WriteLine("Hello World!");
         Console.WriteLine("Written in C#.");
         Console.Write("What's your favorite color?: ");
