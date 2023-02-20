@@ -2,8 +2,18 @@ using System;
 
 class Program
 {
+
+    
     static void Main(string[] args)
     {
+        var addValue = new Add();
+        string number = addValue.Privatized();
+        Add added = new Add();
+        Console.Write("Enter a number: ");
+        string publicOne = Console.ReadLine();
+        added.AddThis(number, publicOne);
+        Console.WriteLine($"The sum is {added.summed}.");
+
         Console.Write("Enter a number: ");
         string firstA = Console.ReadLine();
         Console.Write("Enter another number: ");
@@ -33,4 +43,6 @@ class Program
         Console.WriteLine($"Your name is {last}, {first} {last}");
 
     }
+
+    
 }

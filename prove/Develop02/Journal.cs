@@ -25,6 +25,6 @@ public class Journal
         File.WriteAllLines(filePath, lines);
         Console.ReadLine();
         Console.WriteLine("Your prompt was printed into a journal.");
+        
     }
-    
 }
