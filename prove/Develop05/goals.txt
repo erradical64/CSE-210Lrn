@@ -1,0 +1,5 @@
+300
+S:Give a talk,Speak in Sacrament meeting when asked,100,False
+E:Study the scriptures,Study for at least 10 min,50
+C:Attend the temple,Attend and perform any ordinace,50,500,3,1
+S:Getting this done,Name explains it all,0,True
