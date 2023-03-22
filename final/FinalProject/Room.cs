@@ -14,10 +14,12 @@ public class Room
         _xAxisLoc = 0;
         _yAxisLoc = 0;
     }
-    public Room(int x, int y)
+    public Room(int x, int y, List<Item> items, List<Enemy> enemies)
     {
         _xAxisLoc = x;
         _yAxisLoc = y;
+        _item = items;
+        _enemy = enemies;
     }
     public void Test()
     {

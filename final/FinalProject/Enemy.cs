@@ -6,8 +6,6 @@ public abstract class Enemy
     protected string _description;
     protected List<int> damage;
 
-    private List<string> _questions;
-    private List<string> _answers;
 
 
     public Enemy()

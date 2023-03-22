@@ -59,7 +59,7 @@ public class Maze
 
     public void RoomSet()
     {
-        Room room1 = new Room();
+        //Room room1 = new Room();
     }
     public void CheckQuardinates(int X, int Y)
     {

@@ -2,9 +2,16 @@ using System;
 
 public class Sphynx : Enemy
 {
-    public Sphynx(string name):base(name)
+    private List<string> _questions;
+    private List<string> _answers;
+
+    public Sphynx(string name, List<string> questions, List<string> answers):base(name)
     {
         _name = "sphynx";
+        _questions = questions;
+        _answers = answers;
+
+
     }
     public override void Attack()
     {
@@ -12,7 +19,8 @@ public class Sphynx : Enemy
     }
     public void Quiz()
     {
-
+        _questions.Add("Q1");
+        _answers.Add("A1");
     }
 
 
